@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="ordering">
+    <a href="./index.html"><i class="fa fa-close close" style="font-size:48px; color: white;"></i></a>
+    <form class="order-form">
+      <div class="names">
+        <div class="firstname">
+          <label class="lab">First Name</label><br>
+          <input type="text" placeholder="First Name" class="namefirst" required>
+        </div>
+        <div class="lastname">
+          <label class="lab">Last Name</label><br>
+          <input type="text" placeholder="Last Name" class="namelast" required>
+        </div>
+      </div>
+      <div class="phoneaddress">
+        <div class="phone">
+          <label class="lab">Phone</label><br>
+          <input type="text" placeholder="Phone" class="phoneno" required>
+        </div>
+        <div class="emailadd">
+          <label class="lab">Email address</label><br>
+          <input type="text" placeholder="Email address" id="addressemail" required>
+        </div>
+      </div>
+      <div>
+        <label class="lab">Special Request</label><br>
+        <input type="text" placeholder="Special Request" class="special" required>
+      </div>
+      <button onclick="orderNumber()" class="emailsend"><a href="http://127.0.0.1:5500/confirmation.html">SEND</a></button>
+    </form>
+  </div>
+</body>
+<script src="./script.js"></script>
+</html>

@@ -61,12 +61,13 @@ marquee {
   margin-top: 3%;
   display: flex;
   width: 100%;
+  height: 535px;
 }
 
 .intro-text {
   background-color: #301818;
   width: 60%;
-  height: 530px;
+  height: 535px;
 }
 
 .home-top {
@@ -97,7 +98,7 @@ marquee {
   justify-content: center;
   height: auto;
   background-color: #307672;
-  margin-left : 220px;
+  margin-left: 220px;
   margin-right: 220px;
   padding: 15px 25px 15px 25px;
   border: 1px solid #307672;
@@ -112,7 +113,7 @@ marquee {
 
 .home-img {
   width: 100%;
-  height: 530px;
+  height: 535px;
 }
 
 .booking {
@@ -148,7 +149,6 @@ marquee {
   width: 50%;
   margin-left: 50px;
   margin-right: 10px;
-  /* color: #307672; */
 }
 
 .booking-period {
@@ -480,4 +480,3 @@ marquee {
 .order-det {
   display: flex;
 }
-

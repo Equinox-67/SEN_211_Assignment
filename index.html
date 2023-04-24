@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Hassy Foods and Reservation</title>
   <link rel="stylesheet" href="./style.css">
   <link rel="stylesheet" href="script.js">
@@ -23,9 +23,6 @@
           <a href="#about.html" class="top-menu">ABOUT</a>
         </div>
       </div>
-    </section>
-    <section>
-      <marquee style="position: fixed;"> Disclaimer: This website is only available for pc.</marquee>
     </section>
     <section>
       <div class="home-tab" id="home.html">
@@ -70,7 +67,7 @@
                 <option>10</option>
               </select><br>
               <label>Choose a day:<br></label>
-              <input type="date" class="date"><br>
+              <input name="date" class="date"type="text" onfocus="(this.type='date')" onblur="if(!this.value)this.type='text'">
               <label>Choose a Time:<br></label>
               <select class="time">
                 <option>2:30 PM</option>
